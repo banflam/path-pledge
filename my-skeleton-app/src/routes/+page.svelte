@@ -11,6 +11,29 @@
 <p>Take the pledge!</p>
 
 <!-- Form goes here-->
+<form class="mx-auto w-full max-w-md space-y-4">
+    <input type="text" class="input" placeholder="First name" />
+    <input type="text" class="input" placeholder="Last name" />
+    <input type="email" class="input" placeholder="Email (optional)" />
+    <select class="select">
+        <option selected>Your home station</option>
+        <option value="Newport">Newport</option>
+        <option value="Newark">Newport</option>
+        <option value="Harrison">Harrison</option>
+        <option value="Journal Square">Journal Square</option>
+        <option value="Grove Street">Grove Street</option>
+        <option value="Exchange Place">Exchange Place</option>
+        <option value="World Trade Center">World Trade Center</option>
+        <option value="Hoboken">Hoboken</option>
+        <option value="Christopher Street">Christopher Street</option>
+        <option value="9th Street">9th Street</option>
+        <option value="14th Street">14th Street</option>
+        <option value="23rd Street">23rd Street</option>
+        <option value="33rd Street">33rd Street</option>
+    </select>
+
+
+</form>
 
 <!-- Button goes here-->
 
