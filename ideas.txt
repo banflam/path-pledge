@@ -1,0 +1,44 @@
+2025-06-16T17:51:07-04:00
+
+Move in -- Don't stand in front of the doors
+	-- Wait at the side for everybody to exit before boarding the train
+
+Let people off first
+Don’t Block Doors
+No blasting music for everybody to here / talking loudly -- Use Headphones and Keep Volume Low
+
+WEBSITE IDEA -- THE BASIC COURTESY PLEDGE FOR THE PATH TRAIN
+
+The pledge -- three simple things, displayed really prominently and immediately understandable (with catchy slogans)
+
+"I take this pledge"
+
+- Name
+- Email [optional]
+- My home stop
+- My usual destination stop
+
+STATISTICS
+
+Number of people who have taken the pledge in total.
+A bunch of standard statistics
+
+
+TECHNICAL AND SPECIFICATION -- JUST GETTING IT STARTED
+
+Website with single webpage
+"The PATH(?) pledge"
+
+"Join REAL-TIME OFTEN UPDATED NUMBER people who have taken the PATH pledge to improve the experience for themselves and everybody"
+
+I am a PATH rider who wants a better experience. I pledge to do the following:
+
+1. Stand to the side of the door and let all people off before boarding
+2. Move in to the center of the train to make space for others to board
+
+FORM
+
+
+
+TAKE THE PLEDGE! [submit button]
+
