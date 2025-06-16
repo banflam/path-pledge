@@ -36,9 +36,24 @@ I am a PATH rider who wants a better experience. I pledge to do the following:
 1. Stand to the side of the door and let all people off before boarding
 2. Move in to the center of the train to make space for others to board
 
-FORM
+FORM:
 
-
+First name: 
+Last name:
+My home PATH station: [dropdown list for discrete options]
+Email (optional):
+[never shared with anybody without your permission]
+Frequency of PATH use: [options: daily, weekly, monthly, yearly]
 
 TAKE THE PLEDGE! [submit button]
 
+STATISTICS
+
+XYZ PATH riders who have chosen to improve the ride for myself and everybody
+
+Line chart: pledge takers by station (showing the relative lines)
+
+Frequency of users by pledge
+
+FRONTEND -- some kind of Svelte framework [want to also use Svelte for this]
+BACKEND -- AWS AuroraDB [for the relational aspect, for experimentation, and for efficient data retrieval for the statistics]
