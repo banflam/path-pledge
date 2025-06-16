@@ -36,6 +36,7 @@
 </form>
 
 <!-- Button goes here-->
+<button type="button" class="btn preset-filled">I pledge!</button>
 
 <p>Riders who have taken the pledge for a better ride</p>
 
