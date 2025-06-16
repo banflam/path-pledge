@@ -23,7 +23,6 @@ STATISTICS
 Number of people who have taken the pledge in total.
 A bunch of standard statistics
 
-
 TECHNICAL AND SPECIFICATION -- JUST GETTING IT STARTED
 
 Website with single webpage
