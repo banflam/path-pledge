@@ -8,3 +8,11 @@
     <li><em>Move in</em> to the center of the train to make space for others to board</li>
 </ol>
 
+<p>Take the pledge!</p>
+
+<!-- Form goes here-->
+
+<!-- Button goes here-->
+
+<p>Riders who have taken the pledge for a better ride</p>
+
