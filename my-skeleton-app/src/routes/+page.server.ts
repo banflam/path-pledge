@@ -10,8 +10,8 @@ const client = new DynamoDBClient({
 export const actions = {
   default: async ({ request }) => {
     const formData = await request.formData();
-    const first_name = formData.get("name") as string;
-    const last_name = formData.get("name") as string;
+    const first_name = formData.get("firstName") as string;
+    const last_name = formData.get("lastName") as string;
     const email = formData.get("email") as string;
     const station = formData.get("station") as string;
 
