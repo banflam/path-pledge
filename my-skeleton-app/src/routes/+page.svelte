@@ -17,7 +17,7 @@
     <select name="station" class="select">
         <option selected>Your home station</option>
         <option value="Newport">Newport</option>
-        <option value="Newark">Newport</option>
+        <option value="Newark">Newark</option>
         <option value="Harrison">Harrison</option>
         <option value="Journal Square">Journal Square</option>
         <option value="Grove Street">Grove Street</option>
@@ -31,10 +31,10 @@
         <option value="33rd Street">33rd Street</option>
     </select>
 
+<button type="button" class="btn preset-filled">I pledge!</button>
 
 </form>
 
-<button type="button" class="btn preset-filled">I pledge!</button>
 
 <p>Riders who have taken the pledge for a better ride</p>
 
