@@ -1,5 +1,10 @@
+<script lang="ts">
+    import { enhance } from "$app/forms";
+    export let form;
+</script>
+
 <h1>The PATH Pledge</h1>
-<p>"Join OFTEN UPDATED NUMBER people who have taken the PATH pledge for a better ride"</p>
+<!-- <p>"Join OFTEN UPDATED NUMBER people who have taken the PATH pledge for a better ride"</p> -->
 
 <p>I am a PATH rider who wants a better experience. I pledge to do the following:</p>
 
@@ -10,7 +15,13 @@
 
 <p>Take the pledge!</p>
 
-<form method="POST" class="mx-auto w-full max-w-md space-y-4">
+
+{#if form?.success}
+<p class="text-green-600 font-semibold text-center mt-4">
+    Thank YOU for making it a better journey for everyone!
+</p>
+{:else}
+<form use:enhance method="POST" class="mx-auto w-full max-w-md space-y-4">
     <input name="firstName" type="text" class="input" placeholder="First name" required />
     <input name="lastName" type="text" class="input" placeholder="Last name" required />
     <input name="email" type="email" class="input" placeholder="Email (optional)" />
@@ -34,7 +45,10 @@
 <button type="submit" class="btn preset-filled">I pledge!</button>
 
 </form>
+{/if}
 
 
+<!--
 <p>Riders who have taken the pledge for a better ride</p>
+-->
 
