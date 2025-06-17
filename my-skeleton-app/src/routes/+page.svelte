@@ -31,7 +31,7 @@
         <option value="33rd Street">33rd Street</option>
     </select>
 
-<button type="button" class="btn preset-filled">I pledge!</button>
+<button type="submit" class="btn preset-filled">I pledge!</button>
 
 </form>
 
