@@ -11,7 +11,7 @@
 <p>Take the pledge!</p>
 
 <!-- Form goes here-->
-<form class="mx-auto w-full max-w-md space-y-4">
+<form method="POST" class="mx-auto w-full max-w-md space-y-4">
     <input type="text" class="input" placeholder="First name" />
     <input type="text" class="input" placeholder="Last name" />
     <input type="email" class="input" placeholder="Email (optional)" />
