@@ -54,6 +54,7 @@
 		"@aws-sdk/client-dynamodb": "^3.830.0",
 		"@aws-sdk/lib-dynamodb": "^3.830.0",
 		"@sveltejs/adapter-node": "^5.2.12",
-		"crypto": "^1.0.1"
+		"crypto": "^1.0.1",
+		"uuid": "^11.1.0"
 	}
 }
