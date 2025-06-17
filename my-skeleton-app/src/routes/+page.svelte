@@ -13,9 +13,6 @@
     <li><em>Move in</em> to the center of the train to make space for others to board</li>
 </ol>
 
-<p>Take the pledge!</p>
-
-
 {#if form?.success}
 <p class="text-green-600 font-semibold text-center mt-4">
     Thank YOU for making it a better journey for everyone!
