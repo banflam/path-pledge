@@ -1,7 +1,7 @@
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { PutCommand } from "@aws-sdk/lib-dynamodb";
 import { error } from "@sveltejs/kit";
-import { randomUUID } from "crypto";
+import { v4 as uuidv4 } from "uuid";
 
 const client = new DynamoDBClient({
   region: process.env.AWS_REGION,
@@ -22,7 +22,7 @@ export const actions = {
     const command = new PutCommand({
       TableName: "Contacts",
       Item: {
-        id: randomUUID(),
+        id: uuidv4(),
         first_name,
         last_name,
         station,
@@ -38,4 +38,4 @@ export const actions = {
       throw error(500, "Failed to save to database");
     }
   },
-}
+};
