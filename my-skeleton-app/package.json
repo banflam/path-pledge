@@ -50,6 +50,8 @@
 		"svelte"
 	],
 	"dependencies": {
+		"@aws-sdk/client-dynamodb": "^3.830.0",
+		"@aws-sdk/lib-dynamodb": "^3.830.0",
 		"@sveltejs/adapter-node": "^5.2.12"
 	}
 }
