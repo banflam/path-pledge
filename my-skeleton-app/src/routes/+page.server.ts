@@ -20,7 +20,7 @@ export const actions = {
     }
 
     const command = new PutCommand({
-      TableName: "Contacts",
+      TableName: "path-pledge",
       Item: {
         id: uuidv4(),
         first_name,
