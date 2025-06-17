@@ -11,11 +11,11 @@
 <p>Take the pledge!</p>
 
 <form method="POST" class="mx-auto w-full max-w-md space-y-4">
-    <input name="firstName" type="text" class="input" placeholder="First name" />
-    <input name="lastName" type="text" class="input" placeholder="Last name" />
+    <input name="firstName" type="text" class="input" placeholder="First name" required />
+    <input name="lastName" type="text" class="input" placeholder="Last name" required />
     <input name="email" type="email" class="input" placeholder="Email (optional)" />
-    <select name="station" class="select">
-        <option selected>Your home station</option>
+    <select name="station" class="select" required>
+        <option value="" disabled selected>Your home station</option>
         <option value="Newport">Newport</option>
         <option value="Newark">Newark</option>
         <option value="Harrison">Harrison</option>
