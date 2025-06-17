@@ -12,10 +12,10 @@
 
 <!-- Form goes here-->
 <form method="POST" class="mx-auto w-full max-w-md space-y-4">
-    <input type="text" class="input" placeholder="First name" />
-    <input type="text" class="input" placeholder="Last name" />
-    <input type="email" class="input" placeholder="Email (optional)" />
-    <select class="select">
+    <input name="firstName" type="text" class="input" placeholder="First name" />
+    <input name="lastName" type="text" class="input" placeholder="Last name" />
+    <input name="email" type="email" class="input" placeholder="Email (optional)" />
+    <select name="station" class="select">
         <option selected>Your home station</option>
         <option value="Newport">Newport</option>
         <option value="Newark">Newport</option>
