@@ -10,7 +10,6 @@
 
 <p>Take the pledge!</p>
 
-<!-- Form goes here-->
 <form method="POST" class="mx-auto w-full max-w-md space-y-4">
     <input name="firstName" type="text" class="input" placeholder="First name" />
     <input name="lastName" type="text" class="input" placeholder="Last name" />
@@ -35,7 +34,6 @@
 
 </form>
 
-<!-- Button goes here-->
 <button type="button" class="btn preset-filled">I pledge!</button>
 
 <p>Riders who have taken the pledge for a better ride</p>
