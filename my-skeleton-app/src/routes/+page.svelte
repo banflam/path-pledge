@@ -6,7 +6,6 @@
 <div class="min-h-screen bg-gray-100 flex items-center justify-center px-4">
   <div class="bg-white shadow-lg rounded-2xl p-8 w-full max-w-2xl space-y-8">
     
-    <!-- Header and pledge text -->
     <div class="text-center space-y-4">
       <h1 class="text-3xl font-bold text-gray-800">
         The PATH Pledge
@@ -14,6 +13,7 @@
       <p class="text-gray-600 text-base">
         I am a PATH rider who wants a better experience.
       </p>
+      <p class="text-gray-600 text-base text-left">I pledge to:</p>
       <ol class="list-decimal list-inside text-left text-gray-700 space-y-2">
         <li>
           Stand to the <span class="font-semibold text-blue-700">side</span> of the door to 
