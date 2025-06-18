@@ -1,5 +1,6 @@
 <script lang="ts">
     import { enhance } from "$app/forms";
+    import {TypeWriter} from 'svelte-typewrite'
     export let form;
 </script>
 
@@ -11,7 +12,7 @@
         The PATH Pledge
       </h1>
       <p class="text-gray-600 text-base">
-        I am a PATH rider who wants a better experience.
+        I am a PATH rider who wants a <TypeWriter texts={['better', 'safer', 'faster', 'more efficient']} /> experience.
       </p>
       <p class="text-gray-600 text-base text-left">I pledge to:</p>
       <ol class="list-decimal list-inside text-left text-gray-700 space-y-2">
