@@ -21,9 +21,8 @@
 <form use:enhance method="POST" class="mx-auto w-full max-w-md space-y-4">
     <input name="firstName" type="text" class="w-full px-4 py-2 border border-gray-300 bg-white text-black rounded-lg shadow-sm focus:ring focus:ring-blue-200" placeholder="First name" required />
     <input name="lastName" type="text" class="w-full px-4 py-2 border border-gray-300 bg-white text-black rounded-lg shadow-sm focus:ring focus:ring-blue-200" placeholder="Last name" required />
-    <input name="lastName" type="text" class="input" placeholder="Last name" required />
-    <input name="email" type="email" class="input" placeholder="Email (only if you want updates)" />
-    <select name="station" class="select" required>
+    <input name="email" type="email" class="w-full px-4 py-2 border border-gray-300 bg-white text-black rounded-lg shadow-sm focus:ring focus:ring-blue-200" placeholder="Email (only if you want updates)" />
+    <select name="station" class="w-full px-4 py-2 border border-gray-300 bg-white text-black rounded-lg shadow-sm focus:ring focus:ring-blue-200" required>
         <option value="" disabled selected>Your home station</option>
         <option value="Newport">Newport</option>
         <option value="Newark">Newark</option>
