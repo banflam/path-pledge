@@ -21,7 +21,7 @@
 <form use:enhance method="POST" class="mx-auto w-full max-w-md space-y-4">
     <input name="firstName" type="text" class="input" placeholder="First name" required />
     <input name="lastName" type="text" class="input" placeholder="Last name" required />
-    <input name="email" type="email" class="input" placeholder="Email (optional)" />
+    <input name="email" type="email" class="input" placeholder="Email (only if you want updates)" />
     <select name="station" class="select" required>
         <option value="" disabled selected>Your home station</option>
         <option value="Newport">Newport</option>
