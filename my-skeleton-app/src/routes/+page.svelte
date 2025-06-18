@@ -19,7 +19,8 @@
 </p>
 {:else}
 <form use:enhance method="POST" class="mx-auto w-full max-w-md space-y-4">
-    <input name="firstName" type="text" class="input" placeholder="First name" required />
+    <input name="firstName" type="text" class="w-full px-4 py-2 border border-gray-300 bg-white text-black rounded-lg shadow-sm focus:ring focus:ring-blue-200" placeholder="First name" required />
+    <input name="lastName" type="text" class="w-full px-4 py-2 border border-gray-300 bg-white text-black rounded-lg shadow-sm focus:ring focus:ring-blue-200" placeholder="Last name" required />
     <input name="lastName" type="text" class="input" placeholder="Last name" required />
     <input name="email" type="email" class="input" placeholder="Email (only if you want updates)" />
     <select name="station" class="select" required>
@@ -39,7 +40,7 @@
         <option value="33rd Street">33rd Street</option>
     </select>
 
-<button type="submit" class="btn preset-filled">I pledge!</button>
+<button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">I pledge!</button>
 
 </form>
 {/if}
