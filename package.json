@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "react-simple-typewriter": "^5.0.1"
+    "react-simple-typewriter": "^5.0.1",
+    "svelte-typewrite": "^3.0.0"
   }
 }
