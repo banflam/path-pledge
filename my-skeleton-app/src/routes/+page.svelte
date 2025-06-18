@@ -12,7 +12,7 @@
         The PATH Pledge
       </h1>
       <p class="text-gray-600 text-base">
-        I am a PATH rider who wants a <TypeWriter typeSpeed={120} deleteSpeed={100} afterTyped={{blink: 4.5}} afterDeleted={{blink: 4.5}} texts={['better', 'safer', 'faster', 'more efficient', 'more courteous']}/>experience.
+        I am a PATH rider who wants a <span class="font-semibold text-blue-700"><TypeWriter typeSpeed={120} deleteSpeed={100} afterTyped={{blink: 4.5}} afterDeleted={{blink: 4.5}} texts={['better', 'safer', 'faster', 'more efficient', 'more courteous']}/></span>experience.
       </p>
       <p class="text-gray-600 text-base text-left">I pledge to:</p>
       <ol class="list-decimal list-inside text-left text-gray-700 space-y-2">
