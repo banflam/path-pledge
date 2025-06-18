@@ -3,15 +3,18 @@
     export let form;
 </script>
 
-<h1>The PATH Pledge</h1>
+<div class="text-center space-y-4">
+
+<h1 class="text-3xl font-extrabold tracking-tight text-gray-800">The PATH Pledge</h1>
 <!-- <p>"Join OFTEN UPDATED NUMBER people who have taken the PATH pledge for a better ride"</p> -->
 
-<p>I am a PATH rider who wants a better experience. I pledge to do the following:</p>
+<p class="text-lg text-gray-600 max-w-2xl mx-auto">I am a PATH rider who wants a better experience. I pledge to do the following:</p>
 
-<ol>
-    <li>Stand to the <em>side</em> of the door to <em>let all people off</em> before boarding</li>
-    <li><em>Move in</em> to the center of the train to make space for others to board</li>
+<ol class="list-decimal list-inside text-left max-w-xl mx-auto space-y-2 text-gray-700">
+    <li>Stand to the <em class="font-semibold text-blue-700">side</em> of the door to <em>let all people off</em> before boarding</li>
+    <li><em class="font-semibold text-blue-700">Move in</em> to the center of the train to make space for others to board</li>
 </ol>
+</div>
 
 {#if form?.success}
 <p class="text-green-600 font-semibold text-center mt-4">
