@@ -17,12 +17,10 @@
       <p class="text-gray-600 text-base text-left">I pledge to:</p>
       <ol class="list-decimal list-inside text-left text-gray-700 space-y-2">
         <li>
-          Stand to the <span class="font-semibold text-blue-700">side</span> of the door to 
-          <span class="font-semibold text-blue-700">let all people off</span> before boarding.
+          <span class="font-semibold text-blue-700">Let everybody off before boarding</span> by standing to the side of the door.
         </li>
         <li>
-          <span class="font-semibold text-blue-700">Move in</span> to the center of the train 
-          to make space for others to board.
+          <span class="font-semibold text-blue-700">Move into the train</span> to make space for others to board.
         </li>
       </ol>
     </div>
